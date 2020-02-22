@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- CHAPTER 1 STRUCTURE -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    
+
+    <p>It is a paragraph tag</p>
+
+    <!-- CHAPTER 2 TEXT -->
+    <p>It is <b>paragraph</b> & i just bold the word paragraph</p>
+    <p><i>Italic</i></p>
+
+    <p>Subscript: n<sub>2</sub></p>
+    <p></p>Super-Script: n<sup>2</sup> </p>
+
+    <!--LINE BREAK  -->
+    <p>As you have already seen, the browser will automatically show each new paragraph or heading on a new line. <br>But if you wanted to add a line break inside the middle of a paragraph you can use the line break tag</p>
+
+    <!-- STRONG EMPHASIS -->
+   <p><strong>Strong</strong></p> 
+   <p><em>EMPHASIS</em></p> 
+
+
+   <!-- CITATION & DEFINITION -->
+   <p><cite>A Brief History of Time</cite> by Stephen   Hawking has sold over ten million copies   worldwide.</p> 
+   <p>A <dfn>black hole</dfn> is a region of space from   which nothing, not even light, can escape.</p> 
+   <address> <p><a href="mailto:homer@example.org">   homer@example.org</a></p> <p>742 Evergreen Terrace, Springfield.</p> </address> 
+
+   <!-- CHAPTER 3 LIST -->
+   <h2>Un-ORDERED LIST</h2>
+   <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+   </ul>
+
+<h2>ODERED LIST</h2>
+
+<ol>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+</ol>
+
+<!-- NESTED LIST -->
+<ol>
+    <li>a
+        <ul>
+            <li>1</li>
+            <li>2</li>
+        </ul>
+    </li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+</ol>
+
+<!-- CHAPTER 4 LINKS -->
+
+<a href="wwww.google.com">CLICK TO GO ON GOOGLE</a><br>
+<a href="mailto:jon@example.org">Email Jon</a><br>
+<a href="http://www.imdb.com" target="_blank"> Internet Movie Database</a> (opens in new window)
+<br><br>
+
+<!-- CHAPTER 5 IMAGE -->
+
+<img src="220px-SMIU_Logo.jpg"   width="200" height="200">
+<!-- caption qith image -->
+<figure> <img src="maxresdefault.jpg" width="200" height="200" alt="Photograph of     two sea otters floating in water"> <br />  <figcaption>Sea otters hold hands when they     sleep so they don't drift away from each     other.</figcaption> </figure> 
+
+
+<!-- TABLES -->
+
+<h1>TABLES</h1>
+
+<table border="2">  
+    <tr>   
+        <th>NUMBERS</th> 
+        <td>15</td>   
+        <td>15</td>    
+        <td>30</td>  
+    </tr>  
+    <tr>    
+        <th>SCORE</th> 
+        <td>45</td>        
+        <td>60</td>    
+        <td>45</td>  
+    </tr> 
+    <tr>   
+        <th>RESULT</th> 
+        <td colspan="2">60</td>    
+          
+        <td>90</td>  
+    </tr> 
+</table> 
+
+<!-- FORMS -->
+<form>
+<h1>FORM</h1>
+<input type="text" name="username"><br>
+<input type="password"><br>
+<textarea name="comments" cols="20" rows="4">Enter   your comments...</textarea> <br>
+<h1>radio button</h1>
+<input type="radio" name="genre" value="rock"     checked="checked" /> Rock  
+ <input type="radio" name="genre" value="pop" />     Pop   
+ <input type="radio" name="genre" value="jazz" />     Jazz 
+<br />   
+<h1>Checkbox</h1>
+    <input type="checkbox" name="service"     value="itunes" checked="checked" /> iTunes   
+    <input type="checkbox" name="service"     value="lastfm" /> Last.fm   
+    <input type="checkbox" name="service"     value="spotify" /> Spotify 
+<h1>Drop down list</h1>
+<select name="devices">    
+    <option value="ipod">iPod</option>   
+     <option value="radio">Radio</option>   
+      <option value="computer">Computer</option>  
+</select>
+
+<br>
+<br>
+<input type="submit" value="submit" /> 
+</form>
+</body>
+</html>
