@@ -1,90 +1,90 @@
-// //ASSIGNMENT 13
+//ASSIGNMENT 13
 
-// //Perform all these topics with example?
+//Perform all these topics with example?
 
-// // 1) Simple Function
+// 1) Simple Function
 
-// function name(){
-//     var name = prompt("Enter your name?")
-//     console.log(name)
-// }
+function name(){
+    var name = prompt("Enter your name?")
+    console.log(name)
+}
 
-// name()
+name()
 
-// // 2) Parameterized Function
+// 2) Parameterized Function
 
-// function yourGender (gender){
-//     console.log("Gender : " , gender)
-// }
+function yourGender (gender){
+    console.log("Gender : " , gender)
+}
 
-// yourGender("female")
+yourGender("female")
 
-// // 3) Function Returning
+// 3) Function Returning
 
-// function Age(yourAge){
-//     if (yourAge >= 18){
-//         console.log("You are eligible to vote casting.")
-//         var EnterName = prompt("Enter your name")
-//         console.log("Name : ", EnterName)
-//         return EnterName
-//     }
-//     else{
-//         console.log("You are not eligible to vote casting.")
-//         return
-//     }
+function Age(yourAge){
+    if (yourAge >= 18){
+        console.log("You are eligible to vote casting.")
+        var EnterName = prompt("Enter your name")
+        console.log("Name : ", EnterName)
+        return EnterName
+    }
+    else{
+        console.log("You are not eligible to vote casting.")
+        return
+    }
 
-// }
+}
 
-// Age(18)
+Age(18)
 
-// // 4) Local Variables
+// 4) Local Variables
 
-// //Ans: Local variables are those which can be access within the function not the outside of function
+//Ans: Local variables are those which can be access within the function not the outside of function
 
-// function Country(){
-//     var YourCountry = prompt("Enter your country name?")
-//     console.log(YourCountry)
-//     console.log("it is the example of local variable")
-// }
+function Country(){
+    var YourCountry = prompt("Enter your country name?")
+    console.log(YourCountry)
+    console.log("it is the example of local variable")
+}
 
-// Country()
+Country()
 
-// // 5 & 6) Global Variables and Access Local Variables Globally using return
+// 5 & 6) Global Variables and Access Local Variables Globally using return
 
-// //Ans: Global variables are those which can be access within the function or outside of the function
+//Ans: Global variables are those which can be access within the function or outside of the function
 
-// function city(){
-//     console.log("it is the example of global variable")
-//     var YourCity = prompt("Enter your City name?")
-//     console.log(YourCity)
-//     return YourCity
-// }
-
-
-// var GlobalExample = city()
-// console.log("Globally used variable: " , GlobalExample)
+function city(){
+    console.log("it is the example of global variable")
+    var YourCity = prompt("Enter your City name?")
+    console.log(YourCity)
+    return YourCity
+}
 
 
-// // 7) While Loop
-
-// console.log("While loop Example")
-//     var i = 18
-//     while( i < 35 ){
-//         console.log(i)
-//         i++
-//     }
+var GlobalExample = city()
+console.log("Globally used variable: " , GlobalExample)
 
 
+// 7) While Loop
 
-// // 8) Do-while Loop
+console.log("While loop Example")
+    var i = 18
+    while( i < 35 ){
+        console.log(i)
+        i++
+    }
 
-// console.log("Do While loop Example")
-//     var i = 1
-//     do{
-//         console.log(i)
-//         i++
-//     }
-//     while(i<18)
+
+
+// 8) Do-while Loop
+
+console.log("Do While loop Example")
+    var i = 1
+    do{
+        console.log(i)
+        i++
+    }
+    while(i<18)
 
 // 9) Create function & variable then call and use that function in another script file.
 
