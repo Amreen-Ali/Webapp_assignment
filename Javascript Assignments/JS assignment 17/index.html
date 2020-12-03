@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .showHover {
+        width: 500px;
+        height: 500px;
+        background: url("one.jpg") no-repeat;
+        margin: 50px;
+    }
+    .showHover:hover {
+        background: url("two.gif") no-repeat;
+    }
+    
+    
+
+    </style>
+    
+</head>
+<body>
+
+    <!-- onclick -->
+    <button onclick="show()">On Click</button>
+<br><br>
+
+<!-- onmouseover & onmouseout -->
+    <img src="one.jpg" onmouseover="zoomImg(this)" onmouseout="outImg(this)">
+<br><br>
+
+<!-- onfocus      -->
+<input type="text" onfocus="myfocus(this)">
+<br><br>
+
+<!-- onblur -->
+<h1 onblur="myblur()">Hello</h1>
+<br><br>
+
+<!-- onKeyPress -->
+<input type="text" onkeypress="mykeypress()">
+<br><br>
+
+<!-- onsubmit -->
+<form onsubmit="mysubmit()">
+    <label>Enter your name: </label><input type="text">
+    <input type="submit" value="submit">
+</form>
+<br><br>
+
+<!-- Swapping images on mouse events -->
+<div class="showHover">
+    
+</div>
+<br><br>
+
+
+<!-- getelementByID  -->
+
+<p id="getExample">click and change the paragraph</p>
+<button onclick="myclick()">submit</button>
+<br><br>
+
+<!-- ) getElementByTagName  -->
+
+    <ul>
+        <li>football</li>
+        <li>Hockey</li>
+        <li>Cricket</li>
+    </ul>
+<button onclick="mytagname()">submit</button>
+<p id="check"></p>
+<br><br>
+
+</body>
+<script src="js/app.js"></script>
+</html>
